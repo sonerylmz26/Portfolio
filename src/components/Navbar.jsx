@@ -27,8 +27,8 @@ const pages = [
           url: "/projects",
         },
         {
-          title: "About",
-          url: "/about",
+          title: "Skills",
+          url: "/skills",
         },
         {
                 title: "Contact",
@@ -56,7 +56,9 @@ const Navbar = () => {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="static"
+    sx={{backgroundColor:"#494949"}}
+    >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
         <CssBaseline />
@@ -72,12 +74,13 @@ const Navbar = () => {
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
-              color: 'inherit',
+              color: '#F17D10',
+              textShadow:"2px 1px 1px white",
               textDecoration: 'none',
               cursor: "pointer"
             }}
           >
-            Yılmaz
+            S.Yılmaz
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -89,7 +92,9 @@ const Navbar = () => {
               onClick={handleOpenNavMenu}
               color="inherit"
             >
-              <MenuIcon />
+              <MenuIcon 
+              sx={{color:"white"}}
+              />
             </IconButton>
             <Menu
               id="menu-appbar"
@@ -129,13 +134,14 @@ const Navbar = () => {
               display: { xs: 'flex', md: 'none' },
               flexGrow: 1,
               fontFamily: 'monospace',
-              fontWeight: 700,
+              fontWeight: 600,
+              textShadow:"2px 1px 1px white",
               letterSpacing: '.3rem',
-              color: 'inherit',
+              color: '#F17D10',
               textDecoration: 'none',
             }}
           >
-            Yılmaz
+           S.Yılmaz
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page,i) => (
@@ -145,7 +151,9 @@ const Navbar = () => {
                         handleCloseNavMenu();
                         navigate(page.url);
                       }}
-                sx={{ my: 2, color: 'white', display: 'block' }}
+                sx={{ my: 2, color: 'white',
+                fontWeight:"bold",
+                display: 'block' }}
               >
                 {page.title}
               </Button>

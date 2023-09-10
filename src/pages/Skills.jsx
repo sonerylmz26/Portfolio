@@ -1,7 +1,7 @@
 import { Box, Container, Grid } from "@mui/material"
 import {skills} from "../helper/skılls"
 import {skillsBox} from "../style/globalStyle"
-const About = () => {
+const Skills = () => {
 
   return (
     <Container sx={{display:"flex", justifyContent: "center",
@@ -40,4 +40,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Skills
