@@ -1,0 +1,90 @@
+export const skills = [
+    {
+        id:1,
+        name:"HTML",
+        image:"https://skillicons.dev/icons?i=html"
+    },
+    {
+        id:2,
+        name:"CSS",
+        image:"https://skillicons.dev/icons?i=css"
+    },
+    {
+        id:3,
+        name:"JAVASCRIPT",
+        image:"https://skillicons.dev/icons?i=javascript"
+    },
+    {
+        id:4,
+        name:"REACT",
+        image:"https://skillicons.dev/icons?i=react"
+    },
+    {
+        id:5,
+        name:"BOOTSTRAP",
+        image:"https://skillicons.dev/icons?i=bootstrap"
+    },
+    {
+        id:6,
+        name:"SASS",
+        image:"https://skillicons.dev/icons?i=sass"
+    },
+    {
+        id:7,
+        name:"STYLE COMPONENTS",
+        image:"https://skillicons.dev/icons?i=styledcomponents"
+    },
+    {
+        id:8,
+        name:"TAILWIND",
+        image:"https://skillicons.dev/icons?i=tailwind"
+    },
+    {
+        id:9,
+        name:"MATERIAL UI",
+        image:"https://skillicons.dev/icons?i=materialui"
+    },
+    {
+        id:10,
+        name:"TYPE SCRIPT",
+        image:"https://skillicons.dev/icons?i=typescript"
+    }
+]
+
+export const softSkills = [
+    {
+        id:1,
+        name:"GITHUB",
+        image:"https://skillicons.dev/icons?i=github"
+    },
+    {
+        id:2,
+        name:"POSTMAN",
+        image:"https://skillicons.dev/icons?i=postman"
+    },
+    {
+        id:3,
+        name:"FIGMA",
+        image:"https://skillicons.dev/icons?i=figma"
+    },
+    {
+        id:4,
+        name:"FIREBASE",
+        image:"https://skillicons.dev/icons?i=firebase"
+    },
+    {
+        id:5,
+        name:"VSCODE",
+        image:"https://skillicons.dev/icons?i=vscode"
+    },
+    {
+        id:6,
+        name:"VITE",
+        image:"https://skillicons.dev/icons?i=vite"
+    },
+    {
+        id:7,
+        name:"WEBPACK",
+        image:"https://skillicons.dev/icons?i=webpack"
+    }
+]

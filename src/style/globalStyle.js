@@ -1,0 +1,17 @@
+export const skillsBox ={
+        "&:hover": {backgroundColor:"#5D5D5D", cursor:"pointer",
+transition:"all .3s ease-out", 
+ scale:1.5,
+},
+        display:"flex",flexDirection:"column", justifyContent:"center",
+            alignItems:"center",
+            width:"200px",
+            height:"200px",
+            backgroundColor:"#333333",
+            borderRadius:"20px",
+            color:"white",
+            fontSize:"20px",
+            fontWeight:"bold",
+            textAlign:"center",
+            p:2,
+}
